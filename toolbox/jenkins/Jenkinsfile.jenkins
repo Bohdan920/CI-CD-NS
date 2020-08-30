@@ -35,7 +35,7 @@ pipeline  {
             steps {
                 echo " ============== pushing image =================="
                 sh '''
-                docker push macnaer/chatterboxserver:latest
+                docker push bohdanserver/chatterboxserver:latest
                '''
             }
         }
