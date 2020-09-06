@@ -1,9 +1,9 @@
 FROM python:latest
  
-MAINTAINER macnaer
+MAINTAINER bohdanserver
  
 WORKDIR /home/dfo
 COPY . /home/dfo
 RUN pip install -r requirements.txt
  
-ENTRYPOINT ["start.py"]
+ENTRYPOINT [ "python", "start.py" ]
