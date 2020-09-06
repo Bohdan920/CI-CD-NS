@@ -23,7 +23,7 @@ class Currency:
 
     def __save_to_s3(self):
         # bucketname = input("Enter bucket name to upload > ")
-        bucketname = "currency-u"
+        bucketname = "karpaty63"
         # file_name = input("Enter file name to upload > ")
         file_name = "currency.txt"
         s3 = boto3.client('s3')
