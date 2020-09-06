@@ -35,7 +35,7 @@ pipeline  {
             steps {
                 echo " ============== pushing image =================="
                 sh '''
-                docker push bohdanserver/chatterboxserver:latest
+                docker push bohdanserver/dfo:latest
                '''
             }
         }
@@ -43,7 +43,7 @@ pipeline  {
           //  steps {
              //   echo " ============== stoping all images =================="
              //   sh '''
-            //    docker stop chatterboxserver
+            //    docker stop 
             //    '''
           // }
        // }
